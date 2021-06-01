@@ -1,0 +1,15 @@
+embedding_size: 100
+hidden_size: 128
+model_path: models/
+batch_size: 20
+dropout: 0.5
+tags:
+  #- ORG
+  #- PER
+  - 政策技术
+  - 应用领域
+  - 事业单位
+  - 事件地点
+  - 事件时间
+  - 技术特点
+  - 问题挑战

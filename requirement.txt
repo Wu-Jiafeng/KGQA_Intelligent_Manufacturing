@@ -1,0 +1,13 @@
+flask
+py2neo
+pyltp
+bs4
+tkinter
+ujson
+yaml
+scikit-learn
+sklearn-crfsuite==0.3.6
+tqdm
+torch==1.4.0
+zhon
+jieba
