@@ -59,7 +59,7 @@
 1)  配置环境<br>
     - python 3.6, CUDA 10, CUDNN 7<br>
 	- 根据requiement.txt安装相关库：pip install -r requirement.txt<br>
-	- ~~下载LTP语言模型 http://model.scir.yunfutech.com/model/ltp_data_v3.4.0.zip ，解压后将cws与pos模型放入./KGQA/model文件夹中~~<br>
+	- 下载LTP语言模型 http://model.scir.yunfutech.com/model/ltp_data_v3.4.0.zip ，解压后将cws与pos模型放入./KGQA/model文件夹中<br>
 	- 解压./KGQA/model/model.zip及./BootstrappingRE/data/data.zip<br>
 	- 配置JDK 8 + Neo4j 4.2.1，修改配置文件neo4j.conf为允许无密码登录 dbms.security.auth_enabled=false；dbms.default_listen_address=0.0.0.0；及允许HTTP连接<br>
 2)  NER模块训练、测试、预测<br>
